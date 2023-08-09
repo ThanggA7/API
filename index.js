@@ -27,7 +27,7 @@ app.get('/time', (req, res) => {
     date: timezoneDatetime.format('YYYY-MM-DD'),
     time: timezoneDatetime.format('HH:mm:ss'),
     utc_offset: timezoneInfo.utcOffset(unixTimestamp) / 60, // Chia cho 60 để chuyển sang đơn vị phút
-    author: "Noazuynh"
+    author: "Nhu Thang Luu"
   };
 
   res.json(response);
